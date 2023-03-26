@@ -18,11 +18,10 @@ void MayArray(int[] collection)
 void SumEvenNumbers(int[] verifiable)
 {
     int sum = 0;
-    int length = verifiable.Length;
     
-    for(int i = 0; i < length; i++)
+    for(int i = 0; i < verifiable.Length; i++)
     {
-        int posishon = i + 1;
+        int posishon = i;
         if(posishon % 2 == 1)
         sum+= verifiable[i];
     }
